@@ -1,0 +1,41 @@
+2022-01-24T21:46:58+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (26 Gen 2022 08:45) at position 0 (2): Unexpected character in /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/DateTime.php:10
+Stack trace:
+#0 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/DateTime.php(10): DateTime->__construct('26 Gen 2022 08:...', Object(DateTimeZone))
+#1 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Wrapper/Booking/Builder.php(98): SLN_DateTime->__construct('26 Gen 2022 08:...')
+#2 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/views/shortcode/_services.php(12): SLN_Wrapper_Booking_Builder->getDateTime()
+#3 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/views/shortcode/salon_services.php(39): include('/home/mondodir/...')
+#4 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Service/Templating.php(27): include('/home/mondodir/...')
+#5 /home/mondod in /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/DateTime.php alla riga 10
+
+2022-01-24T22:33:19+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (26 Gen 2022 09:05) at position 0 (2): Unexpected character in /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/DateTime.php:10
+Stack trace:
+#0 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/DateTime.php(10): DateTime->__construct('26 Gen 2022 09:...', Object(DateTimeZone))
+#1 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Wrapper/Booking/Builder.php(98): SLN_DateTime->__construct('26 Gen 2022 09:...')
+#2 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Shortcode/Salon/AttendantStep.php(16): SLN_Wrapper_Booking_Builder->getDateTime()
+#3 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Shortcode/Salon/Step.php(22): SLN_Shortcode_Salon_AttendantStep->dispatchForm()
+#4 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Shortcode/Salon/AttendantStep.php(186): SLN in /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/DateTime.php alla riga 10
+
+2022-01-24T22:35:45+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (26 Gen 2022 09:05) at position 0 (2): Unexpected character in /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/DateTime.php:10
+Stack trace:
+#0 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/DateTime.php(10): DateTime->__construct('26 Gen 2022 09:...', Object(DateTimeZone))
+#1 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Wrapper/Booking/Builder.php(98): SLN_DateTime->__construct('26 Gen 2022 09:...')
+#2 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Shortcode/Salon/AttendantStep.php(16): SLN_Wrapper_Booking_Builder->getDateTime()
+#3 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Shortcode/Salon/Step.php(22): SLN_Shortcode_Salon_AttendantStep->dispatchForm()
+#4 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Shortcode/Salon/AttendantStep.php(186): SLN in /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/DateTime.php alla riga 10
+
+2022-01-24T22:36:40+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (26 Gen 2022 09:05) at position 0 (2): Unexpected character in /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/DateTime.php:10
+Stack trace:
+#0 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/DateTime.php(10): DateTime->__construct('26 Gen 2022 09:...', Object(DateTimeZone))
+#1 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Wrapper/Booking/Builder.php(98): SLN_DateTime->__construct('26 Gen 2022 09:...')
+#2 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Shortcode/Salon/AttendantStep.php(16): SLN_Wrapper_Booking_Builder->getDateTime()
+#3 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Shortcode/Salon/Step.php(22): SLN_Shortcode_Salon_AttendantStep->dispatchForm()
+#4 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Shortcode/Salon/AttendantStep.php(186): SLN in /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/DateTime.php alla riga 10
+
+2022-01-24T22:36:46+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (26 Gen 2022 09:05) at position 0 (2): Unexpected character in /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/DateTime.php:10
+Stack trace:
+#0 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/DateTime.php(10): DateTime->__construct('26 Gen 2022 09:...', Object(DateTimeZone))
+#1 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Wrapper/Booking/Builder.php(98): SLN_DateTime->__construct('26 Gen 2022 09:...')
+#2 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Shortcode/Salon/AttendantStep.php(16): SLN_Wrapper_Booking_Builder->getDateTime()
+#3 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Shortcode/Salon/Step.php(22): SLN_Shortcode_Salon_AttendantStep->dispatchForm()
+#4 /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/Shortcode/Salon/AttendantStep.php(186): SLN in /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro/src/SLN/DateTime.php alla riga 10
+

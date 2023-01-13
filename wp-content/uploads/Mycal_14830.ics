@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Spatie calendar-links
+BEGIN:VEVENT
+UID:a8fdb6b4eba8606dc35c48a5693f4825
+SUMMARY:Mondo di Riflessi - 10 Dic 2022 15:00
+DTSTAMP;TZID=Europe/Rome:20221210T150000
+DTSTART;TZID=Europe/Rome:20221210T150000
+DTEND;TZID=Europe/Rome:20221210T152000
+X-ALT-DESC;FMTTYPE=text/html:Salon name: Mondo di Riflessi \n\nIndirizzo del salone: Via Gian Pietro Porro\, 180 21056 Induno Olona (VA) \n\nSalon phone: +390332202264 \n\nSalon email: info@mondodiriflessi.com \n\nTrattamenti prenotati:\nTaglio Bimbo: 15:00 ➝ 15:20 - Raffaella\n\nNote sulla prenotazione:\nNessuno\n\nStatus della prenotazione: Confermato
+LOCATION:Via Gian Pietro Porro\, 180 21056 Induno Olona (VA)
+END:VEVENT
+END:VCALENDAR

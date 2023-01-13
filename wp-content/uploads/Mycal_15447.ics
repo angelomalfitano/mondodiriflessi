@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Spatie calendar-links
+BEGIN:VEVENT
+UID:ce25c39484a159397f1553629ae930f1
+SUMMARY:Mondo di Riflessi - 03 Gen 2023 15:30
+DTSTAMP;TZID=Europe/Rome:20230103T153000
+DTSTART;TZID=Europe/Rome:20230103T153000
+DTEND;TZID=Europe/Rome:20230103T161500
+X-ALT-DESC;FMTTYPE=text/html:Salon name: Mondo di Riflessi \n\nIndirizzo del salone: Via Gian Pietro Porro\, 180 21056 Induno Olona (VA) \n\nSalon phone: +390332202264 \n\nSalon email: info@mondodiriflessi.com \n\nTrattamenti prenotati:\nPiega Lunga: 15:30 ➝ 16:15 - Luana\n\nNote sulla prenotazione:\nPrenotazione per Claudia Auro.\n\nStatus della prenotazione: Confermato
+LOCATION:Via Gian Pietro Porro\, 180 21056 Induno Olona (VA)
+END:VEVENT
+END:VCALENDAR

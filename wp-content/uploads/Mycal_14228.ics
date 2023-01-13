@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Spatie calendar-links
+BEGIN:VEVENT
+UID:cff7f3ef30b5ce56509ff59986f3ea3a
+SUMMARY:Mondo di Riflessi - 26 Nov 2022 08:30
+DTSTAMP;TZID=Europe/Rome:20221126T083000
+DTSTART;TZID=Europe/Rome:20221126T083000
+DTEND;TZID=Europe/Rome:20221126T093500
+X-ALT-DESC;FMTTYPE=text/html:Salon name: Mondo di Riflessi \n\nIndirizzo del salone: Via Gian Pietro Porro\, 180 21056 Induno Olona (VA) \n\nSalon phone: +390332202264 \n\nSalon email: info@mondodiriflessi.com \n\nTrattamenti prenotati:\nTrattamenti: 08:30 ➝ 09:00 - Raffaella\nPiega Media: 09:00 ➝ 09:35 - Raffaella\n\nNote sulla prenotazione:\nNessuno\n\nStatus della prenotazione: Confermato
+LOCATION:Via Gian Pietro Porro\, 180 21056 Induno Olona (VA)
+END:VEVENT
+END:VCALENDAR

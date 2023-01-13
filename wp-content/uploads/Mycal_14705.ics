@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Spatie calendar-links
+BEGIN:VEVENT
+UID:e6dca61c4eb05666fdb8a870272a1206
+SUMMARY:Mondo di Riflessi - 20 Dic 2022 14:30
+DTSTAMP;TZID=Europe/Rome:20221220T143000
+DTSTART;TZID=Europe/Rome:20221220T143000
+DTEND;TZID=Europe/Rome:20221220T181500
+X-ALT-DESC;FMTTYPE=text/html:Salon name: Mondo di Riflessi \n\nIndirizzo del salone: Via Gian Pietro Porro\, 180 21056 Induno Olona (VA) \n\nSalon phone: +390332202264 \n\nSalon email: info@mondodiriflessi.com \n\nTrattamenti prenotati:\nTaglio: 14:30 ➝ 15:00 - Raffaella\nPermanente: 15:00 ➝ 16:25 - Raffaella\nColore: 16:25 ➝ 17:15 - Raffaella\nShampoo: 17:15 ➝ 17:25 - Raffaella\nPiega Bigodini: 17:25 ➝ 18:15 - Raffaella\n\nNote sulla prenotazione:\nNessuno\n\nStatus della prenotazione: Confermato
+LOCATION:Via Gian Pietro Porro\, 180 21056 Induno Olona (VA)
+END:VEVENT
+END:VCALENDAR

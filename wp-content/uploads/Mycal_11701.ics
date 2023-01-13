@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Spatie calendar-links
+BEGIN:VEVENT
+UID:f3033b318a8db6d0ef226c7f17141465
+SUMMARY:Mondo di Riflessi - 29 Set 2022 17:00
+DTSTAMP;TZID=Europe/Rome:20220929T170000
+DTSTART;TZID=Europe/Rome:20220929T170000
+DTEND;TZID=Europe/Rome:20220929T175000
+X-ALT-DESC;FMTTYPE=text/html:Salon name: Mondo di Riflessi \n\nIndirizzo del salone: Via Gian Pietro Porro\, 180 21056 Induno Olona (VA) \n\nSalon phone: +390332202264 \n\nSalon email: info@mondodiriflessi.com \n\nTrattamenti prenotati:\nTaglio: 17:00 ➝ 17:30 - Raffaella\nPiega Corta: 17:30 ➝ 17:50 - Raffaella\n\nNote sulla prenotazione:\nNessuno\n\nStatus della prenotazione: Confermato
+LOCATION:Via Gian Pietro Porro\, 180 21056 Induno Olona (VA)
+END:VEVENT
+END:VCALENDAR

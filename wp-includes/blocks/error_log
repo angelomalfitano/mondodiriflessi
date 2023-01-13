@@ -1,0 +1,4 @@
+[15-Jul-2022 22:37:40 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/mondodir/public_html/wp-includes/blocks/index.php on line 9
+[15-Jul-2022 22:37:40 UTC] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/mondodir/public_html/wp-includes/blocks/index.php on line 9
+[15-Jul-2022 22:37:40 UTC] PHP Warning:  require(ABSPATHWPINC/blocks/archives.php): failed to open stream: No such file or directory in /home/mondodir/public_html/wp-includes/blocks/index.php on line 9
+[15-Jul-2022 22:37:40 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/blocks/archives.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mondodir/public_html/wp-includes/blocks/index.php on line 9

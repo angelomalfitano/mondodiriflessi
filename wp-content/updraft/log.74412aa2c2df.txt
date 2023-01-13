@@ -1,0 +1,59 @@
+0000.001 (0) Opened log file at time: Fri, 08 Apr 2022 07:21:24 +0000 on https://mondodiriflessi.com
+0000.011 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.15.6.1 WP: 5.9.3 PHP: 7.4.28 (litespeed, Linux eu08.tmd.cloud 3.10.0-962.3.2.lve1.5.44.3.el7.x86_64 #1 SMP Mon Feb 22 04:35:33 EST 2021 x86_64) MySQL: 10.1.41-MariaDB WPLANG: it_IT Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 28.1M | 30M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.062 (0) Free space on disk containing Updraft's temporary directory: 1047911.3 MB
+0000.073 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.091 (0) Semaphore (fd, wppv_options) being initialised
+0000.115 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.136 (0) Set semaphore last lock (fd) time to 2022-04-08 07:21:25
+0000.140 (0) Semaphore lock (fd) complete
+0000.163 (0) Backup run: resumption=0, nonce=74412aa2c2df, begun at=1649402484 (1s ago), job type=backup
+0000.175 (0) Scheduling a resumption (1) after 300 seconds (1649402785) in case this run gets aborted
+0000.210 (0) Checking if we have a zip executable available
+0000.232 (0) Testing: /usr/bin/zip
+0000.253 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.264 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.270 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.278 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.284 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.300 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.306 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.313 (0) Working binary zip found: /usr/bin/zip
+0000.326 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.331 (0) Creation of backups of directories: beginning
+0000.352 (0) Beginning creation of dump of plugins (split every: 100 MB)
+0048.558 (0) Total entities for the zip file: 2377 directories, 10509 files (0 skipped as non-modified), 137.2 MB
+0048.572 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0048.839 (0) backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: size is now: 0.60 MB
+0048.853 (0) Zip: backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: 100 files added (on-disk size: 582.9 KB)
+0048.861 (0) Zip: backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: 200 files added (on-disk size: 582.9 KB)
+0048.869 (0) Zip: backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: 300 files added (on-disk size: 582.9 KB)
+0048.877 (0) Zip: backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: 400 files added (on-disk size: 582.9 KB)
+0048.883 (0) Zip: backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: 500 files added (on-disk size: 582.9 KB)
+0048.888 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 10509 files batched, 501 (502) added so far); re-opening (prior size: 582.9 KB)
+0054.151 (0) PHP Fatal error (Error) has occurred. Error Message: Call to undefined method UpdraftPlus::record_still_alive() (Code: 0, line 350 in /home/mondodir/public_html/wp-content/plugins/updraftplus/includes/class-zip.php) Backtrace: do_action('wp_ajax_updraft_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajax_handler, UpdraftPlus_Commands->backupnow, UpdraftPlus_Admin->request_backupnow, do_action('updraft_backupnow_backup_all'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus->backup_all, UpdraftPlus->boot_backup, UpdraftPlus->backup_resume
+0054.160 (0) An error condition has occurred for the first time during this job
+0302.982 (1) Opened log file at time: Fri, 08 Apr 2022 07:26:27 +0000 on https://mondodiriflessi.com
+0302.989 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.15.6.1 WP: 5.9.3 PHP: 7.4.28 (litespeed, Linux eu08.tmd.cloud 3.10.0-962.3.2.lve1.5.44.3.el7.x86_64 #1 SMP Mon Feb 22 04:35:33 EST 2021 x86_64) MySQL: 10.1.41-MariaDB WPLANG: it_IT Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.6M | 26M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0303.039 (1) Free space on disk containing Updraft's temporary directory: 1047971.9 MB
+0303.051 (1) Backup run: resumption=1, nonce=74412aa2c2df, begun at=1649402484 (303s ago), job type=backup, previous check-in=48.8s
+0303.062 (1) Scheduling a resumption (2) after 300 seconds (1649403087) in case this run gets aborted
+0303.074 (1) Checking if we have a zip executable available
+0303.079 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0303.085 (1) Creation of backups of directories: had begun; will resume
+0303.093 (1) Beginning creation of dump of plugins (split every: 100 MB)
+0303.099 (1) File exists (/home/mondodir/public_html/wp-content/updraft/backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1649402540, time_now=1649402788, diff=248)
+0303.176 (1) backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: Zip file already exists, with 502 files
+0303.532 (1) Total entities for the zip file: 2377 directories, 10509 files (0 skipped as non-modified), 137.2 MB
+0303.545 (1) Zip: backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: 100 files added (on-disk size: 1644.3 KB)
+0303.547 (1) Zip: backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: 200 files added (on-disk size: 1644.3 KB)
+0303.548 (1) Zip: backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: 300 files added (on-disk size: 1644.3 KB)
+0303.549 (1) Zip: backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: 400 files added (on-disk size: 1644.3 KB)
+0303.551 (1) Zip: backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: 500 files added (on-disk size: 1644.3 KB)
+0303.553 (1) Zip: backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: 600 files added (on-disk size: 1644.3 KB)
+0303.562 (1) Zip: backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: 700 files added (on-disk size: 1644.3 KB)
+0303.569 (1) Zip: backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: 800 files added (on-disk size: 1644.3 KB)
+0303.579 (1) Zip: backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: 900 files added (on-disk size: 1644.3 KB)
+0303.587 (1) Zip: backup_2022-04-08-0821_Mondo_di_Riflessi_74412aa2c2df-plugins.zip.tmp: 1000 files added (on-disk size: 1644.3 KB)
+0303.594 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.4 MB, 10509 files batched, 501 (501) added so far); re-opening (prior size: 1644.3 KB)
+0309.100 (1) PHP Fatal error (Error) has occurred. Error Message: Call to undefined method UpdraftPlus::record_still_alive() (Code: 0, line 350 in /home/mondodir/public_html/wp-content/plugins/updraftplus/includes/class-zip.php) Backtrace: do_action_ref_array('updraft_backup_resume'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus->backup_resume
+0309.107 (1) An error condition has occurred for the first time during this job

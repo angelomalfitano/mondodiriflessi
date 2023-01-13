@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Spatie calendar-links
+BEGIN:VEVENT
+UID:b09caa01089ba2aee197e74d4f05874f
+SUMMARY:Mondo di Riflessi - 02 Nov 2022 16:30
+DTSTAMP;TZID=Europe/Rome:20221102T163000
+DTSTART;TZID=Europe/Rome:20221102T163000
+DTEND;TZID=Europe/Rome:20221102T182500
+X-ALT-DESC;FMTTYPE=text/html:Salon name: Mondo di Riflessi \n\nIndirizzo del salone: Via Gian Pietro Porro\, 180 21056 Induno Olona (VA) \n\nSalon phone: +390332202264 \n\nSalon email: info@mondodiriflessi.com \n\nTrattamenti prenotati:\nColore: 16:30 ➝ 17:20 - Lucia\nTaglio: 17:20 ➝ 17:50 - Lucia\nPiega Media: 17:50 ➝ 18:25 - Lucia\n\nNote sulla prenotazione:\nNessuno\n\nStatus della prenotazione: Confermato
+LOCATION:Via Gian Pietro Porro\, 180 21056 Induno Olona (VA)
+END:VEVENT
+END:VCALENDAR

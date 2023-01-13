@@ -1,0 +1,1 @@
+/home/mondodir/public_html/wp/wp-content/plugins/query-monitor/wp-content/db.php

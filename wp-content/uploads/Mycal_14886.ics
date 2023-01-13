@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Spatie calendar-links
+BEGIN:VEVENT
+UID:8f3a55c6c16ee2f589e03aa2e53abb73
+SUMMARY:Mondo di Riflessi - 21 Dic 2022 18:00
+DTSTAMP;TZID=Europe/Rome:20221221T180000
+DTSTART;TZID=Europe/Rome:20221221T180000
+DTEND;TZID=Europe/Rome:20221221T185500
+X-ALT-DESC;FMTTYPE=text/html:Salon name: Mondo di Riflessi \n\nIndirizzo del salone: Via Gian Pietro Porro\, 180 21056 Induno Olona (VA) \n\nSalon phone: +390332202264 \n\nSalon email: info@mondodiriflessi.com \n\nTrattamenti prenotati:\nTaglio Shampoo: 18:00 ➝ 18:30 - Massimo\nBarba: 18:30 ➝ 18:55 - Massimo\n\nNote sulla prenotazione:\nNessuno\n\nStatus della prenotazione: Confermato
+LOCATION:Via Gian Pietro Porro\, 180 21056 Induno Olona (VA)
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Spatie calendar-links
+BEGIN:VEVENT
+UID:54508e84b055f6964c07a7bbb176da08
+SUMMARY:Mondo di Riflessi - 14 Ott 2022 14:30
+DTSTAMP;TZID=Europe/Rome:20221014T143000
+DTSTART;TZID=Europe/Rome:20221014T143000
+DTEND;TZID=Europe/Rome:20221014T160500
+X-ALT-DESC;FMTTYPE=text/html:Salon name: Mondo di Riflessi \n\nIndirizzo del salone: Via Gian Pietro Porro\, 180 21056 Induno Olona (VA) \n\nSalon phone: +390332202264 \n\nSalon email: info@mondodiriflessi.com \n\nTrattamenti prenotati:\nColore: 14:30 ➝ 15:20 - Raffaella\nShampoo: 15:20 ➝ 15:30 - Raffaella\nPiega Media: 15:30 ➝ 16:05 - Raffaella\n\nNote sulla prenotazione:\nNessuno\n\nStatus della prenotazione: Confermato
+LOCATION:Via Gian Pietro Porro\, 180 21056 Induno Olona (VA)
+END:VEVENT
+END:VCALENDAR
