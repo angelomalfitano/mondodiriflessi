@@ -8982,3 +8982,5 @@ Stack trace:
 #7 /home/mondodir/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Arr in /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro-old/src/SLB_API/Plugin.php on line 65
 [13-Jan-2023 08:33:18 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro-old/salon.php on line 143
 [13-Jan-2023 08:54:05 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/mondodir/public_html/wp-content/plugins/salon-booking-plugin-pro-old/salon.php on line 143
+[13-Jan-2023 12:01:46 UTC] PHP Warning:  require_once(/home/mondodir/public_html/wp-load.php): failed to open stream: No such file or directory in /home/mondodir/public_html/wp-blog-header.php on line 13
+[13-Jan-2023 12:01:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/mondodir/public_html/wp-load.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/mondodir/public_html/wp-blog-header.php on line 13
