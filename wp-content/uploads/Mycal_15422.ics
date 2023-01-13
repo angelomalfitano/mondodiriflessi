@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Spatie calendar-links
+BEGIN:VEVENT
+UID:23ac58c69310046fc76c6fa30cb6c92a
+SUMMARY:Mondo di Riflessi - 03 Gen 2023 17:00
+DTSTAMP;TZID=Europe/Rome:20230103T170000
+DTSTART;TZID=Europe/Rome:20230103T170000
+DTEND;TZID=Europe/Rome:20230103T182000
+X-ALT-DESC;FMTTYPE=text/html:Salon name: Mondo di Riflessi \n\nIndirizzo del salone: Via Gian Pietro Porro\, 180 21056 Induno Olona (VA) \n\nSalon phone: +390332202264 \n\nSalon email: info@mondodiriflessi.com \n\nTrattamenti prenotati:\nCOLORE+: 17:00 ➝ 18:00 - Raffaella\nPiega Corta: 18:00 ➝ 18:20 - Raffaella\n\nNote sulla prenotazione:\nNessuno\n\nStatus della prenotazione: Confermato
+LOCATION:Via Gian Pietro Porro\, 180 21056 Induno Olona (VA)
+END:VEVENT
+END:VCALENDAR

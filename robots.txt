@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Host: mondodiriflessi.com
+
+Sitemap: https://mondodiriflessi.com/sitemap_index.xml
+Sitemap: https://mondodiriflessi.com/category-sitemap.xml
+Sitemap: https://mondodiriflessi.com/post_tag-sitemap.xml
+Sitemap: https://mondodiriflessi.com/business-services-category-sitemap.xml
+Sitemap: https://mondodiriflessi.com/portfolio-category-sitemap.xml
+Sitemap: https://mondodiriflessi.com/portfolio-tag-sitemap.xml
+Sitemap: https://mondodiriflessi.com/testimonials-category-sitemap.xml
+Sitemap: https://mondodiriflessi.com/booked_custom_calendars-sitemap.xml

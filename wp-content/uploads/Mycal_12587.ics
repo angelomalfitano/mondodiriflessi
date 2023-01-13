@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Spatie calendar-links
+BEGIN:VEVENT
+UID:ce6ace23a84bd99f2e537e0756e70aad
+SUMMARY:Mondo di Riflessi - 23 Set 2022 08:30
+DTSTAMP;TZID=Europe/Rome:20220923T083000
+DTSTART;TZID=Europe/Rome:20220923T083000
+DTEND;TZID=Europe/Rome:20220923T085000
+X-ALT-DESC;FMTTYPE=text/html:Salon name: Mondo di Riflessi \n\nIndirizzo del salone: Via Gian Pietro Porro\, 180 21056 Induno Olona (VA) \n\nSalon phone: +390332202264 \n\nSalon email: info@mondodiriflessi.com \n\nTrattamenti prenotati:\nTaglio Bimbo: 08:30 ➝ 08:50 - Massimo\n\nNote sulla prenotazione:\nNessuno\n\nStatus della prenotazione: Confermato
+LOCATION:Via Gian Pietro Porro\, 180 21056 Induno Olona (VA)
+END:VEVENT
+END:VCALENDAR

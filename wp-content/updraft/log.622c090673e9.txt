@@ -1,0 +1,774 @@
+0000.002 (0) Opened log file at time: Fri, 08 Apr 2022 07:27:28 +0000 on https://mondodiriflessi.com
+0000.016 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.15.6.1 WP: 5.9.3 PHP: 7.4.28 (litespeed, Linux eu08.tmd.cloud 3.10.0-962.3.2.lve1.5.44.3.el7.x86_64 #1 SMP Mon Feb 22 04:35:33 EST 2021 x86_64) MySQL: 10.1.41-MariaDB WPLANG: it_IT Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 28.1M | 30M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.057 (0) Free space on disk containing Updraft's temporary directory: 1047950.8 MB
+0000.066 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.079 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.088 (0) Semaphore (fd, wppv_options) was stuck, set lock time to 2022-04-08 07:27:28
+0000.098 (0) Semaphore (fd, wppv_options) reset to 1
+0000.108 (0) Set semaphore last lock (fd) time to 2022-04-08 07:27:28
+0000.112 (0) Semaphore lock (fd) complete
+0000.129 (0) Backup run: resumption=0, nonce=622c090673e9, begun at=1649402848 (0s ago), job type=backup
+0000.140 (0) Scheduling a resumption (1) after 300 seconds (1649403148) in case this run gets aborted
+0000.154 (0) Checking if we have a zip executable available
+0000.159 (0) Testing: /usr/bin/zip
+0000.178 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.185 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.191 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.197 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.202 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.219 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.232 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.238 (0) Working binary zip found: /usr/bin/zip
+0000.250 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.256 (0) Creation of backups of directories: beginning
+0000.277 (0) Beginning creation of dump of plugins (split every: 100 MB)
+0000.557 (0) Total entities for the zip file: 2377 directories, 10509 files (0 skipped as non-modified), 137.2 MB
+0000.567 (0) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.580 (0) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.588 (0) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.596 (0) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.603 (0) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.607 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 10509 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.019 (0) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: size is now: 1.60 MB
+0001.031 (0) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 600 files added (on-disk size: 1641.3 KB)
+0001.037 (0) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 700 files added (on-disk size: 1641.3 KB)
+0001.046 (0) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 800 files added (on-disk size: 1641.3 KB)
+0001.053 (0) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 900 files added (on-disk size: 1641.3 KB)
+0001.061 (0) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1000 files added (on-disk size: 1641.3 KB)
+0001.067 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.4 MB, 10509 files batched, 501 (1002) added so far); re-opening (prior size: 1641.3 KB)
+0004.218 (0) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: size is now: 6.10 MB
+0004.233 (0) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1100 files added (on-disk size: 6276.4 KB)
+0004.241 (0) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1200 files added (on-disk size: 6276.4 KB)
+0004.249 (0) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1300 files added (on-disk size: 6276.4 KB)
+0004.256 (0) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1400 files added (on-disk size: 6276.4 KB)
+0004.264 (0) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1500 files added (on-disk size: 6276.4 KB)
+0004.271 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 10509 files batched, 501 (1503) added so far); re-opening (prior size: 6276.4 KB)
+0009.972 (0) PHP Fatal error (Error) has occurred. Error Message: Call to undefined method UpdraftPlus::record_still_alive() (Code: 0, line 350 in /home/mondodir/public_html/wp-content/plugins/updraftplus/includes/class-zip.php) Backtrace: do_action('wp_ajax_updraft_ajax'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus_Admin->updraft_ajax_handler, UpdraftPlus_Commands->backupnow, UpdraftPlus_Admin->request_backupnow, do_action('updraft_backupnow_backup_all'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus->backup_all, UpdraftPlus->boot_backup, UpdraftPlus->backup_resume
+0009.978 (0) An error condition has occurred for the first time during this job
+0301.207 (1) Opened log file at time: Fri, 08 Apr 2022 07:32:29 +0000 on https://mondodiriflessi.com
+0301.213 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.15.6.1 WP: 5.9.3 PHP: 7.4.28 (litespeed, Linux eu08.tmd.cloud 3.10.0-962.3.2.lve1.5.44.3.el7.x86_64 #1 SMP Mon Feb 22 04:35:33 EST 2021 x86_64) MySQL: 10.1.41-MariaDB WPLANG: it_IT Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.6M | 26M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0301.247 (1) Free space on disk containing Updraft's temporary directory: 1048005.8 MB
+0301.260 (1) Backup run: resumption=1, nonce=622c090673e9, begun at=1649402848 (301s ago), job type=backup, previous check-in=4.2s
+0301.296 (1) Scheduling a resumption (2) after 300 seconds (1649403449) in case this run gets aborted
+0301.311 (1) Checking if we have a zip executable available
+0301.319 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0301.325 (1) Creation of backups of directories: had begun; will resume
+0301.335 (1) Beginning creation of dump of plugins (split every: 100 MB)
+0301.341 (1) File exists (/home/mondodir/public_html/wp-content/updraft/backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1649402864, time_now=1649403149, diff=285)
+0301.420 (1) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: Zip file already exists, with 1503 files
+0301.696 (1) Total entities for the zip file: 2377 directories, 10509 files (0 skipped as non-modified), 137.2 MB
+0301.704 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 100 files added (on-disk size: 7582.9 KB)
+0301.705 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 200 files added (on-disk size: 7582.9 KB)
+0301.706 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 300 files added (on-disk size: 7582.9 KB)
+0301.708 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 400 files added (on-disk size: 7582.9 KB)
+0301.709 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 500 files added (on-disk size: 7582.9 KB)
+0301.710 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 600 files added (on-disk size: 7582.9 KB)
+0301.711 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 700 files added (on-disk size: 7582.9 KB)
+0301.712 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 800 files added (on-disk size: 7582.9 KB)
+0301.713 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 900 files added (on-disk size: 7582.9 KB)
+0301.714 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1000 files added (on-disk size: 7582.9 KB)
+0301.722 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1100 files added (on-disk size: 7582.9 KB)
+0301.723 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1200 files added (on-disk size: 7582.9 KB)
+0301.724 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1300 files added (on-disk size: 7582.9 KB)
+0301.725 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1400 files added (on-disk size: 7582.9 KB)
+0301.727 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1500 files added (on-disk size: 7582.9 KB)
+0301.729 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1600 files added (on-disk size: 7582.9 KB)
+0301.737 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1700 files added (on-disk size: 7582.9 KB)
+0301.744 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1800 files added (on-disk size: 7582.9 KB)
+0301.768 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1900 files added (on-disk size: 7582.9 KB)
+0301.780 (1) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2000 files added (on-disk size: 7582.9 KB)
+0301.790 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.2 MB, 10509 files batched, 501 (501) added so far); re-opening (prior size: 7582.9 KB)
+0306.984 (1) PHP Fatal error (Error) has occurred. Error Message: Call to undefined method UpdraftPlus::record_still_alive() (Code: 0, line 350 in /home/mondodir/public_html/wp-content/plugins/updraftplus/includes/class-zip.php) Backtrace: do_action_ref_array('updraft_backup_resume'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus->backup_resume
+0306.991 (1) An error condition has occurred for the first time during this job
+0626.978 (2) Opened log file at time: Fri, 08 Apr 2022 07:37:55 +0000 on https://mondodiriflessi.com
+0626.986 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.15.6.1 WP: 5.9.3 PHP: 7.4.28 (litespeed, Linux eu08.tmd.cloud 3.10.0-962.3.2.lve1.5.44.3.el7.x86_64 #1 SMP Mon Feb 22 04:35:33 EST 2021 x86_64) MySQL: 10.1.41-MariaDB WPLANG: it_IT Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.6M | 26M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0627.029 (2) Free space on disk containing Updraft's temporary directory: 1047957.4 MB
+0627.043 (2) Backup run: resumption=2, nonce=622c090673e9, begun at=1649402848 (627s ago), job type=backup
+0627.055 (2) Scheduling a resumption (3) after 300 seconds (1649403775) in case this run gets aborted
+0627.070 (2) Checking if we have a zip executable available
+0627.075 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0627.090 (2) Creation of backups of directories: had begun; will resume
+0627.104 (2) No check-in was detected on the previous run - as a result, we are reducing the batch amount (old=26214400, new=20971520)
+0627.126 (2) Beginning creation of dump of plugins (split every: 100 MB)
+0627.132 (2) File exists (/home/mondodir/public_html/wp-content/updraft/backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1649403158, time_now=1649403475, diff=317)
+0627.222 (2) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: Zip file already exists, with 2004 files
+0627.515 (2) Total entities for the zip file: 2377 directories, 10509 files (0 skipped as non-modified), 137.2 MB
+0627.524 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 100 files added (on-disk size: 7863.1 KB)
+0627.525 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 200 files added (on-disk size: 7863.1 KB)
+0627.527 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 300 files added (on-disk size: 7863.1 KB)
+0627.528 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 400 files added (on-disk size: 7863.1 KB)
+0627.529 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 500 files added (on-disk size: 7863.1 KB)
+0627.530 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 600 files added (on-disk size: 7863.1 KB)
+0627.531 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 700 files added (on-disk size: 7863.1 KB)
+0627.533 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 800 files added (on-disk size: 7863.1 KB)
+0627.534 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 900 files added (on-disk size: 7863.1 KB)
+0627.535 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1000 files added (on-disk size: 7863.1 KB)
+0627.541 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1100 files added (on-disk size: 7863.1 KB)
+0627.542 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1200 files added (on-disk size: 7863.1 KB)
+0627.543 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1300 files added (on-disk size: 7863.1 KB)
+0627.544 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1400 files added (on-disk size: 7863.1 KB)
+0627.545 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1500 files added (on-disk size: 7863.1 KB)
+0627.547 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1600 files added (on-disk size: 7863.1 KB)
+0627.548 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1700 files added (on-disk size: 7863.1 KB)
+0627.549 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1800 files added (on-disk size: 7863.1 KB)
+0627.550 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1900 files added (on-disk size: 7863.1 KB)
+0627.551 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2000 files added (on-disk size: 7863.1 KB)
+0627.558 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2100 files added (on-disk size: 7863.1 KB)
+0627.565 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2200 files added (on-disk size: 7863.1 KB)
+0627.577 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2300 files added (on-disk size: 7863.1 KB)
+0627.590 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2400 files added (on-disk size: 7863.1 KB)
+0627.602 (2) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2500 files added (on-disk size: 7863.1 KB)
+0627.615 (2) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.1 MB, 10509 files batched, 501 (501) added so far); re-opening (prior size: 7863.1 KB)
+0632.984 (2) PHP Fatal error (Error) has occurred. Error Message: Call to undefined method UpdraftPlus::record_still_alive() (Code: 0, line 350 in /home/mondodir/public_html/wp-content/plugins/updraftplus/includes/class-zip.php) Backtrace: do_action_ref_array('updraft_backup_resume'), WP_Hook->do_action, WP_Hook->apply_filters, UpdraftPlus->backup_resume
+0632.990 (2) An error condition has occurred for the first time during this job
+0979.856 (3) Opened log file at time: Fri, 08 Apr 2022 07:43:47 +0000 on https://mondodiriflessi.com
+0979.870 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.11.0 WP: 5.9.3 PHP: 7.4.28 (litespeed, Linux eu08.tmd.cloud 3.10.0-962.3.2.lve1.5.44.3.el7.x86_64 #1 SMP Mon Feb 22 04:35:33 EST 2021 x86_64) MySQL: 10.1.41-MariaDB (max packet size=1073741824) WPLANG: it_IT Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.7M | 26M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0979.900 (3) Free space on disk containing Updraft's temporary directory: 1047859.5 MB
+0979.908 (3) Requesting backup semaphore lock (622c090673e9)
+0979.934 (3) [Debug] Lock option (updraft_lock_622c090673e9, wppv_options) was created in the database
+0979.943 (3) [Info] Lock (updraft_lock_622c090673e9, wppv_options) acquired after initialising the database
+0979.962 (3) Backup run: resumption=3, nonce=622c090673e9, file_nonce=622c090673e9 begun at=1649402848 (979s ago), job type=backup
+0979.987 (3) Scheduling a resumption (4) after 300 seconds (1649404128) in case this run gets aborted
+0980.029 (3) Checking if we have a zip executable available
+0980.034 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+0980.052 (3) Creation of backups of directories: had begun; will resume
+0980.066 (3) Beginning creation of dump of plugins (split every: 100 MB)
+0980.073 (3) File exists (/home/mondodir/public_html/wp-content/updraft/backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1649403491, time_now=1649403828, diff=337)
+0980.158 (3) Creating zip file manifest (/home/mondodir/public_html/wp-content/updraft/backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.list-temp.tmp)
+0980.611 (3) Successfully created zip file manifest (size: 218224)
+0980.617 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: Zip file already exists, with 2505 files
+0980.939 (3) Total entities for the zip file: 2448 directories, 10773 files (0 skipped as non-modified), 136.5 MB
+0980.952 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 100 files added (on-disk size: 10993.5 KB)
+0980.953 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 200 files added (on-disk size: 10993.5 KB)
+0980.954 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 300 files added (on-disk size: 10993.5 KB)
+0980.955 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 400 files added (on-disk size: 10993.5 KB)
+0980.956 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 500 files added (on-disk size: 10993.5 KB)
+0980.957 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 600 files added (on-disk size: 10993.5 KB)
+0980.958 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 700 files added (on-disk size: 10993.5 KB)
+0980.959 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 800 files added (on-disk size: 10993.5 KB)
+0980.960 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 900 files added (on-disk size: 10993.5 KB)
+0980.961 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1000 files added (on-disk size: 10993.5 KB)
+0980.972 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1100 files added (on-disk size: 10993.5 KB)
+0980.973 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1200 files added (on-disk size: 10993.5 KB)
+0980.974 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1300 files added (on-disk size: 10993.5 KB)
+0980.975 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1400 files added (on-disk size: 10993.5 KB)
+0980.976 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1500 files added (on-disk size: 10993.5 KB)
+0980.977 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1600 files added (on-disk size: 10993.5 KB)
+0980.978 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1700 files added (on-disk size: 10993.5 KB)
+0980.979 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1800 files added (on-disk size: 10993.5 KB)
+0980.981 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 1900 files added (on-disk size: 10993.5 KB)
+0980.982 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2000 files added (on-disk size: 10993.5 KB)
+0980.997 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2100 files added (on-disk size: 10993.5 KB)
+0980.998 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2200 files added (on-disk size: 10993.5 KB)
+0980.999 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2300 files added (on-disk size: 10993.5 KB)
+0981.000 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2400 files added (on-disk size: 10993.5 KB)
+0981.001 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2500 files added (on-disk size: 10993.5 KB)
+0981.003 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2600 files added (on-disk size: 10993.5 KB)
+0981.011 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2700 files added (on-disk size: 10993.5 KB)
+0981.023 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2800 files added (on-disk size: 10993.5 KB)
+0981.030 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 2900 files added (on-disk size: 10993.5 KB)
+0981.040 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 3000 files added (on-disk size: 10993.5 KB)
+0981.056 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 3100 files added (on-disk size: 10993.5 KB)
+0981.063 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 3200 files added (on-disk size: 10993.5 KB)
+0981.070 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 3300 files added (on-disk size: 10993.5 KB)
+0981.078 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 3400 files added (on-disk size: 10993.5 KB)
+0981.084 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 3500 files added (on-disk size: 10993.5 KB)
+0981.089 (3) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.5 MB, 10773 files batched, 1001 (1001) added so far); re-opening (prior size: 10993.5 KB)
+1007.605 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 3600 files added (on-disk size: 12705.2 KB)
+1007.623 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 3700 files added (on-disk size: 12705.2 KB)
+1007.644 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 3800 files added (on-disk size: 12705.2 KB)
+1007.657 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 3900 files added (on-disk size: 12705.2 KB)
+1007.671 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 4000 files added (on-disk size: 12705.2 KB)
+1007.683 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 4100 files added (on-disk size: 12705.2 KB)
+1007.691 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 4200 files added (on-disk size: 12705.2 KB)
+1007.700 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 4300 files added (on-disk size: 12705.2 KB)
+1007.712 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 4400 files added (on-disk size: 12705.2 KB)
+1007.721 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 4500 files added (on-disk size: 12705.2 KB)
+1007.731 (3) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.6 MB, 10773 files batched, 1001 (2002) added so far); re-opening (prior size: 12705.2 KB)
+1036.629 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: size is now: 18.80 MB
+1036.652 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 4600 files added (on-disk size: 19266.7 KB)
+1036.665 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 4700 files added (on-disk size: 19266.7 KB)
+1036.674 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 4800 files added (on-disk size: 19266.7 KB)
+1036.685 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 4900 files added (on-disk size: 19266.7 KB)
+1036.694 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 5000 files added (on-disk size: 19266.7 KB)
+1036.699 (3) Adding batch to zip file (UpdraftPlus_BinZip): over 20 MB added on this batch (20.1 MB, 10773 files batched, 579 (2581) added so far); re-opening (prior size: 19266.7 KB)
+1066.620 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: size is now: 25.10 MB
+1066.644 (3) A useful amount of data was added after this amount of zip processing: 30.7 s (normalised: 30.6 s, rate: 669.7 KB/s)
+1066.659 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 5100 files added (on-disk size: 25725.8 KB)
+1066.669 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 5200 files added (on-disk size: 25725.8 KB)
+1066.683 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 5300 files added (on-disk size: 25725.8 KB)
+1066.703 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 5400 files added (on-disk size: 25725.8 KB)
+1066.720 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 5500 files added (on-disk size: 25725.8 KB)
+1066.730 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 5600 files added (on-disk size: 25725.8 KB)
+1066.743 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 5700 files added (on-disk size: 25725.8 KB)
+1066.759 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 5800 files added (on-disk size: 25725.8 KB)
+1066.774 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 5900 files added (on-disk size: 25725.8 KB)
+1066.783 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 6000 files added (on-disk size: 25725.8 KB)
+1066.791 (3) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.9 MB, 10773 files batched, 1001 (3582) added so far); re-opening (prior size: 25725.8 KB)
+1099.493 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 6100 files added (on-disk size: 30145.7 KB)
+1099.500 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 6200 files added (on-disk size: 30145.7 KB)
+1099.506 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 6300 files added (on-disk size: 30145.7 KB)
+1099.514 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 6400 files added (on-disk size: 30145.7 KB)
+1099.521 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 6500 files added (on-disk size: 30145.7 KB)
+1099.530 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 6600 files added (on-disk size: 30145.7 KB)
+1099.538 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 6700 files added (on-disk size: 30145.7 KB)
+1099.548 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 6800 files added (on-disk size: 30145.7 KB)
+1099.557 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 6900 files added (on-disk size: 30145.7 KB)
+1099.567 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 7000 files added (on-disk size: 30145.7 KB)
+1099.575 (3) Adding batch to zip file (UpdraftPlus_BinZip): over 20 MB added on this batch (20 MB, 10773 files batched, 993 (4575) added so far); re-opening (prior size: 30145.7 KB)
+1134.445 (3) A useful amount of data was added after this amount of zip processing: 35.5 s (normalised: 35.4 s, rate: 577.9 KB/s)
+1134.484 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 7100 files added (on-disk size: 34612.4 KB)
+1134.516 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 7200 files added (on-disk size: 34612.4 KB)
+1134.527 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 7300 files added (on-disk size: 34612.4 KB)
+1134.537 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 7400 files added (on-disk size: 34612.4 KB)
+1134.547 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 7500 files added (on-disk size: 34612.4 KB)
+1134.556 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 7600 files added (on-disk size: 34612.4 KB)
+1134.565 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 7700 files added (on-disk size: 34612.4 KB)
+1134.572 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 7800 files added (on-disk size: 34612.4 KB)
+1134.616 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 7900 files added (on-disk size: 34612.4 KB)
+1134.623 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 8000 files added (on-disk size: 34612.4 KB)
+1134.630 (3) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.9 MB, 10773 files batched, 1001 (5576) added so far); re-opening (prior size: 34612.4 KB)
+1165.885 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 8100 files added (on-disk size: 40725.8 KB)
+1165.894 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 8200 files added (on-disk size: 40725.8 KB)
+1165.913 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 8300 files added (on-disk size: 40725.8 KB)
+1165.924 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 8400 files added (on-disk size: 40725.8 KB)
+1165.932 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 8500 files added (on-disk size: 40725.8 KB)
+1165.942 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 8600 files added (on-disk size: 40725.8 KB)
+1165.950 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 8700 files added (on-disk size: 40725.8 KB)
+1165.958 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 8800 files added (on-disk size: 40725.8 KB)
+1165.965 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 8900 files added (on-disk size: 40725.8 KB)
+1165.973 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 9000 files added (on-disk size: 40725.8 KB)
+1165.979 (3) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7 MB, 10773 files batched, 1001 (6577) added so far); re-opening (prior size: 40725.8 KB)
+1185.739 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 9100 files added (on-disk size: 43121.7 KB)
+1185.751 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 9200 files added (on-disk size: 43121.7 KB)
+1185.759 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 9300 files added (on-disk size: 43121.7 KB)
+1185.781 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 9400 files added (on-disk size: 43121.7 KB)
+1185.799 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 9500 files added (on-disk size: 43121.7 KB)
+1185.814 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 9600 files added (on-disk size: 43121.7 KB)
+1185.826 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 9700 files added (on-disk size: 43121.7 KB)
+1185.846 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 9800 files added (on-disk size: 43121.7 KB)
+1185.861 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 9900 files added (on-disk size: 43121.7 KB)
+1185.877 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 10000 files added (on-disk size: 43121.7 KB)
+1185.892 (3) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.9 MB, 10773 files batched, 1001 (7578) added so far); re-opening (prior size: 43121.7 KB)
+1193.400 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 10100 files added (on-disk size: 46022.3 KB)
+1193.409 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 10200 files added (on-disk size: 46022.3 KB)
+1193.423 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 10300 files added (on-disk size: 46022.3 KB)
+1193.441 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 10400 files added (on-disk size: 46022.3 KB)
+1193.450 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 10500 files added (on-disk size: 46022.3 KB)
+1193.465 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 10600 files added (on-disk size: 46022.3 KB)
+1193.478 (3) Zip: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.tmp: 10700 files added (on-disk size: 46022.3 KB)
+1201.441 (3) Created plugins zip (0) - 47596.5 KB in 221.3 s (215 KB/s) (sha1: 3329b39411be6e5bca94cf06d76d508c510b63c8, sha256: da3db74c58c1aa7f7f22fc290f903d3a0ca34dc2a5cc3bf6f57c729488b796b7)
+1201.449 (3) No backup of themes: excluded by user's options
+1201.457 (3) No backup of uploads: excluded by user's options
+1201.464 (3) No backup of others: excluded by user's options
+1201.504 (3) Saving backup status to database (elements: 2)
+1201.522 (3) Resuming creation of database dump (WordPress DB)
+1201.532 (3) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+1201.552 (3) Testing potential mysqldump binary: /usr/bin/mysqldump
+1201.616 (3) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wppv_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1541 bytes total)
+1201.631 (3) Working binary mysqldump found: /usr/bin/mysqldump
+1201.755 (3) Table wppv_options: Total expected rows (via COUNT): 601
+1201.863 (3) Table wppv_options: Rows added in this batch (next record: 43520): 596 (uncompressed bytes in this segment=2770174) in 0.14 seconds
+1201.897 (3) Table wppv_options: finishing file(s) (2, 312.7 KB)
+1201.915 (3) Table wppv_users: Total expected rows (approximate): 1225
+1201.950 (3) Table wppv_users: Rows added in this batch (next record: 1287): 1237 (uncompressed bytes in this segment=184960) in 0.04 seconds
+1201.975 (3) Table wppv_users: finishing file(s) (2, 34.3 KB)
+1202.008 (3) Table wppv_usermeta: Total expected rows (approximate): 43987
+1202.168 (3) Table wppv_usermeta: binary mysqldump finished (writes: 33, bytes 1645368, return code 0) in 0.15 seconds
+1202.183 (3) Table wppv_usermeta: finishing file(s) (1, 316 KB)
+1202.218 (3) Table wppv_commentmeta: Total expected rows (via COUNT): 0
+1202.233 (3) Table wppv_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.03 seconds
+1202.278 (3) Table wppv_commentmeta: finishing file(s) (2, 0.4 KB)
+1202.308 (3) Table wppv_comments: Total expected rows (via COUNT): 0
+1202.329 (3) Table wppv_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1681) in 0.02 seconds
+1202.369 (3) Table wppv_comments: finishing file(s) (2, 0.5 KB)
+1202.395 (3) Table wppv_links: Total expected rows (via COUNT): 0
+1202.405 (3) Table wppv_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1282) in 0.01 seconds
+1202.442 (3) Table wppv_links: finishing file(s) (2, 0.5 KB)
+1202.585 (3) Table wppv_postmeta: Total expected rows (approximate): 5598
+1202.890 (3) Table wppv_postmeta: Rows added in this batch (next record: 26495): 11125 (uncompressed bytes in this segment=6746119) in 0.43 seconds
+1202.948 (3) Table wppv_postmeta: finishing file(s) (2, 891.5 KB)
+1203.016 (3) Table wppv_posts: Total expected rows (via COUNT): 1165
+1203.108 (3) Table wppv_posts: Rows added in this batch (next record: 7982): 1165 (uncompressed bytes in this segment=1389531) in 0.14 seconds
+1203.152 (3) Table wppv_posts: finishing file(s) (2, 159.7 KB)
+1203.174 (3) Table wppv_term_relationships: Total expected rows (approximate): 301
+1203.195 (3) Table wppv_term_relationships: Rows added in this batch (next record: 100000): 302 (uncompressed bytes in this segment=5524) in 0.02 seconds
+1203.243 (3) Table wppv_term_relationships: finishing file(s) (2, 1.2 KB)
+1203.279 (3) Table wppv_term_taxonomy: Total expected rows (via COUNT): 147
+1203.294 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1203.307 (3) Table wppv_term_taxonomy: Rows added in this batch (next record: 156): 147 (uncompressed bytes in this segment=6396) in 0.04 seconds
+1203.352 (3) Table wppv_term_taxonomy: finishing file(s) (2, 1.4 KB)
+1203.386 (3) Table wppv_termmeta: Total expected rows (via COUNT): 0
+1203.401 (3) Table wppv_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.03 seconds
+1203.459 (3) Table wppv_termmeta: finishing file(s) (2, 0.4 KB)
+1203.491 (3) Table wppv_terms: Total expected rows (via COUNT): 147
+1203.514 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1203.545 (3) Table wppv_terms: Rows added in this batch (next record: 156): 147 (uncompressed bytes in this segment=9023) in 0.06 seconds
+1203.624 (3) Table wppv_terms: finishing file(s) (2, 2.2 KB)
+1203.668 (3) Table wppv_actionscheduler_actions: Total expected rows (via COUNT): 3
+1203.678 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1203.699 (3) Table wppv_actionscheduler_actions: Rows added in this batch (next record: 6809): 3 (uncompressed bytes in this segment=2554) in 0.05 seconds
+1203.737 (3) Table wppv_actionscheduler_actions: finishing file(s) (2, 0.8 KB)
+1203.760 (3) Table wppv_actionscheduler_claims: Total expected rows (via COUNT): 0
+1203.777 (3) Table wppv_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=614) in 0.02 seconds
+1203.797 (3) Table wppv_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+1203.819 (3) Table wppv_actionscheduler_groups: Total expected rows (via COUNT): 1
+1203.828 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1203.839 (3) Table wppv_actionscheduler_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=695) in 0.02 seconds
+1203.866 (3) Table wppv_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+1203.894 (3) Table wppv_actionscheduler_logs: Total expected rows (via COUNT): 7
+1203.903 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1203.920 (3) Table wppv_actionscheduler_logs: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1482) in 0.03 seconds
+1203.945 (3) Table wppv_actionscheduler_logs: finishing file(s) (2, 0.6 KB)
+1203.967 (3) Table wppv_e_events: Total expected rows (via COUNT): 0
+1203.983 (3) Table wppv_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=533) in 0.02 seconds
+1204.014 (3) Table wppv_e_events: finishing file(s) (2, 0.3 KB)
+1204.049 (3) Table wppv_e_submissions: Total expected rows (via COUNT): 0
+1204.059 (3) Table wppv_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2250) in 0.01 seconds
+1204.091 (3) Table wppv_e_submissions: finishing file(s) (2, 0.7 KB)
+1204.118 (3) Table wppv_e_submissions_actions_log: Total expected rows (via COUNT): 0
+1204.127 (3) Table wppv_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1243) in 0.01 seconds
+1204.166 (3) Table wppv_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+1204.208 (3) Table wppv_e_submissions_values: Total expected rows (via COUNT): 0
+1204.214 (3) Table wppv_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=724) in 0.02 seconds
+1204.247 (3) Table wppv_e_submissions_values: finishing file(s) (2, 0.4 KB)
+1204.272 (3) Table wppv_login_redirects: Total expected rows (via COUNT): 2
+1204.280 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1204.294 (3) Table wppv_login_redirects: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=888) in 0.03 seconds
+1204.347 (3) Table wppv_login_redirects: finishing file(s) (2, 0.5 KB)
+1204.406 (3) Table wppv_revslider_css: Total expected rows (via COUNT): 109
+1204.416 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1204.435 (3) Table wppv_revslider_css: Rows added in this batch (next record: 109): 109 (uncompressed bytes in this segment=91321) in 0.05 seconds
+1204.465 (3) Table wppv_revslider_css: finishing file(s) (2, 4.9 KB)
+1204.502 (3) Table wppv_revslider_css_bkp: Total expected rows (via COUNT): 47
+1204.507 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1204.526 (3) Table wppv_revslider_css_bkp: Rows added in this batch (next record: 47): 47 (uncompressed bytes in this segment=15966) in 0.04 seconds
+1204.557 (3) Table wppv_revslider_css_bkp: finishing file(s) (2, 1.9 KB)
+1204.593 (3) Table wppv_revslider_layer_animations: Total expected rows (via COUNT): 0
+1204.639 (3) Table wppv_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.05 seconds
+1204.671 (3) Table wppv_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+1204.702 (3) Table wppv_revslider_layer_animations_bkp: Total expected rows (via COUNT): 0
+1204.716 (3) Table wppv_revslider_layer_animations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.02 seconds
+1204.763 (3) Table wppv_revslider_layer_animations_bkp: finishing file(s) (2, 0.3 KB)
+1204.805 (3) Table wppv_revslider_navigations: Total expected rows (via COUNT): 4
+1204.814 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1204.835 (3) Table wppv_revslider_navigations: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=6202) in 0.04 seconds
+1204.870 (3) Table wppv_revslider_navigations: finishing file(s) (2, 1.5 KB)
+1204.913 (3) Table wppv_revslider_navigations_bkp: Total expected rows (via COUNT): 0
+1204.941 (3) Table wppv_revslider_navigations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=839) in 0.04 seconds
+1205.003 (3) Table wppv_revslider_navigations_bkp: finishing file(s) (2, 0.4 KB)
+1205.052 (3) Table wppv_revslider_sliders: Total expected rows (via COUNT): 15
+1205.066 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1205.095 (3) Table wppv_revslider_sliders: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=117211) in 0.06 seconds
+1205.135 (3) Table wppv_revslider_sliders: finishing file(s) (2, 6.8 KB)
+1205.171 (3) Table wppv_revslider_sliders_bkp: Total expected rows (via COUNT): 0
+1205.186 (3) Table wppv_revslider_sliders_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=783) in 0.03 seconds
+1205.225 (3) Table wppv_revslider_sliders_bkp: finishing file(s) (2, 0.4 KB)
+1205.271 (3) Table wppv_revslider_slides: Total expected rows (via COUNT): 34
+1205.277 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1205.303 (3) Table wppv_revslider_slides: Rows added in this batch (next record: 34): 34 (uncompressed bytes in this segment=699566) in 0.06 seconds
+1205.334 (3) Table wppv_revslider_slides: finishing file(s) (2, 32.2 KB)
+1205.368 (3) Table wppv_revslider_slides_bkp: Total expected rows (via COUNT): 0
+1205.392 (3) Table wppv_revslider_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=742) in 0.04 seconds
+1205.432 (3) Table wppv_revslider_slides_bkp: finishing file(s) (2, 0.4 KB)
+1205.466 (3) Table wppv_revslider_static_slides: Total expected rows (via COUNT): 11
+1205.475 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1205.502 (3) Table wppv_revslider_static_slides: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1708) in 0.05 seconds
+1205.554 (3) Table wppv_revslider_static_slides: finishing file(s) (2, 0.5 KB)
+1205.605 (3) Table wppv_revslider_static_slides_bkp: Total expected rows (via COUNT): 0
+1205.628 (3) Table wppv_revslider_static_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=750) in 0.05 seconds
+1205.663 (3) Table wppv_revslider_static_slides_bkp: finishing file(s) (2, 0.4 KB)
+1205.699 (3) Table wppv_sbi_instagram_feed_locator: Total expected rows (via COUNT): 2
+1205.710 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1205.731 (3) Table wppv_sbi_instagram_feed_locator: Rows added in this batch (next record: 4): 2 (uncompressed bytes in this segment=1117) in 0.05 seconds
+1205.760 (3) Table wppv_sbi_instagram_feed_locator: finishing file(s) (2, 0.5 KB)
+1205.782 (3) Table wppv_sbi_instagram_feeds_posts: Total expected rows (via COUNT): 8
+1205.791 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1205.801 (3) Table wppv_sbi_instagram_feeds_posts: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1445) in 0.02 seconds
+1205.847 (3) Table wppv_sbi_instagram_feeds_posts: finishing file(s) (2, 0.6 KB)
+1205.905 (3) Table wppv_sbi_instagram_posts: Total expected rows (via COUNT): 8
+1205.917 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1205.932 (3) Table wppv_sbi_instagram_posts: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=22373) in 0.04 seconds
+1205.989 (3) Table wppv_sbi_instagram_posts: finishing file(s) (2, 14.9 KB)
+1206.028 (3) Table wppv_sm_sessions: Total expected rows (approximate): 0
+1206.046 (3) Table wppv_sm_sessions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=560) in 0.02 seconds
+1206.079 (3) Table wppv_sm_sessions: finishing file(s) (2, 0.3 KB)
+1206.098 (3) Table wppv_smush_dir_images: Total expected rows (via COUNT): 0
+1206.114 (3) Table wppv_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1077) in 0.02 seconds
+1206.154 (3) Table wppv_smush_dir_images: finishing file(s) (2, 0.5 KB)
+1206.175 (3) Table wppv_social_users: Total expected rows (via COUNT): 29
+1206.181 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1206.195 (3) Table wppv_social_users: Rows added in this batch (next record: 31): 29 (uncompressed bytes in this segment=3910) in 0.02 seconds
+1206.221 (3) Table wppv_social_users: finishing file(s) (2, 1.4 KB)
+1206.251 (3) Table wppv_tm_taskmeta: Total expected rows (via COUNT): 0
+1206.276 (3) Table wppv_tm_taskmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.04 seconds
+1206.327 (3) Table wppv_tm_taskmeta: finishing file(s) (2, 0.4 KB)
+1206.352 (3) Table wppv_tm_tasks: Total expected rows (via COUNT): 0
+1206.391 (3) Table wppv_tm_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=868) in 0.04 seconds
+1206.423 (3) Table wppv_tm_tasks: finishing file(s) (2, 0.4 KB)
+1206.454 (3) Table wppv_wc_admin_note_actions: Total expected rows (via COUNT): 36
+1206.461 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1206.484 (3) Table wppv_wc_admin_note_actions: Rows added in this batch (next record: 366): 36 (uncompressed bytes in this segment=6882) in 0.04 seconds
+1206.526 (3) Table wppv_wc_admin_note_actions: finishing file(s) (2, 1.6 KB)
+1206.559 (3) Table wppv_wc_admin_notes: Total expected rows (via COUNT): 34
+1206.570 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1206.584 (3) Table wppv_wc_admin_notes: Rows added in this batch (next record: 34): 34 (uncompressed bytes in this segment=19083) in 0.04 seconds
+1206.626 (3) Table wppv_wc_admin_notes: finishing file(s) (2, 4.7 KB)
+1206.643 (3) Table wppv_wc_category_lookup: Total expected rows (approximate): 1
+1206.667 (3) Table wppv_wc_category_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=601) in 0.03 seconds
+1206.704 (3) Table wppv_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+1206.725 (3) Table wppv_wc_customer_lookup: Total expected rows (via COUNT): 0
+1206.733 (3) Table wppv_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1242) in 0.01 seconds
+1206.769 (3) Table wppv_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+1206.799 (3) Table wppv_wc_download_log: Total expected rows (via COUNT): 0
+1206.824 (3) Table wppv_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=934) in 0.03 seconds
+1206.878 (3) Table wppv_wc_download_log: finishing file(s) (2, 0.5 KB)
+1206.914 (3) Table wppv_wc_order_coupon_lookup: Total expected rows (approximate): 0
+1206.926 (3) Table wppv_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=725) in 0.01 seconds
+1206.950 (3) Table wppv_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+1206.986 (3) Table wppv_wc_order_product_lookup: Total expected rows (via COUNT): 0
+1206.995 (3) Table wppv_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1235) in 0.01 seconds
+1207.099 (3) Table wppv_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+1207.147 (3) Table wppv_wc_order_stats: Total expected rows (via COUNT): 0
+1207.159 (3) Table wppv_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1126) in 0.01 seconds
+1207.301 (3) Table wppv_wc_order_stats: finishing file(s) (2, 0.5 KB)
+1207.327 (3) Table wppv_wc_order_tax_lookup: Total expected rows (approximate): 0
+1207.341 (3) Table wppv_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=807) in 0.02 seconds
+1207.379 (3) Table wppv_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+1207.416 (3) Table wppv_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+1207.427 (3) Table wppv_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1353) in 0.02 seconds
+1207.456 (3) Table wppv_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+1207.488 (3) Table wppv_wc_rate_limits: Total expected rows (via COUNT): 0
+1207.502 (3) Table wppv_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=644) in 0.02 seconds
+1207.533 (3) Table wppv_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+1207.554 (3) Table wppv_wc_reserved_stock: Total expected rows (approximate): 0
+1207.571 (3) Table wppv_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=673) in 0.02 seconds
+1207.605 (3) Table wppv_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+1207.632 (3) Table wppv_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+1207.656 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1207.686 (3) Table wppv_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=832) in 0.06 seconds
+1207.736 (3) Table wppv_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+1207.759 (3) Table wppv_wc_webhooks: Total expected rows (via COUNT): 0
+1207.812 (3) Table wppv_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1218) in 0.06 seconds
+1207.837 (3) Table wppv_wc_webhooks: finishing file(s) (2, 0.5 KB)
+1207.872 (3) Table wppv_woocommerce_api_keys: Total expected rows (via COUNT): 0
+1207.879 (3) Table wppv_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1030) in 0.02 seconds
+1207.924 (3) Table wppv_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+1207.945 (3) Table wppv_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+1207.952 (3) Table wppv_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=953) in 0.01 seconds
+1207.976 (3) Table wppv_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+1207.995 (3) Table wppv_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+1208.001 (3) Table wppv_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1530) in 0.01 seconds
+1208.019 (3) Table wppv_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+1208.047 (3) Table wppv_woocommerce_log: Total expected rows (via COUNT): 0
+1208.054 (3) Table wppv_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=718) in 0.02 seconds
+1208.100 (3) Table wppv_woocommerce_log: finishing file(s) (2, 0.4 KB)
+1208.142 (3) Table wppv_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+1208.161 (3) Table wppv_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=771) in 0.03 seconds
+1208.191 (3) Table wppv_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+1208.213 (3) Table wppv_woocommerce_order_items: Total expected rows (via COUNT): 0
+1208.234 (3) Table wppv_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.02 seconds
+1208.258 (3) Table wppv_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+1208.283 (3) Table wppv_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+1208.298 (3) Table wppv_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.02 seconds
+1208.350 (3) Table wppv_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+1208.381 (3) Table wppv_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+1208.399 (3) Table wppv_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=837) in 0.02 seconds
+1208.432 (3) Table wppv_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+1208.466 (3) Table wppv_woocommerce_sessions: Total expected rows (via COUNT): 2
+1208.476 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1208.493 (3) Table wppv_woocommerce_sessions: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=3568) in 0.04 seconds
+1208.518 (3) Table wppv_woocommerce_sessions: finishing file(s) (2, 0.9 KB)
+1208.548 (3) Table wppv_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+1208.577 (3) Table wppv_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=874) in 0.03 seconds
+1208.600 (3) Table wppv_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+1208.625 (3) Table wppv_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+1208.633 (3) Table wppv_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=779) in 0.01 seconds
+1208.665 (3) Table wppv_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+1208.686 (3) Table wppv_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+1208.692 (3) Table wppv_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=637) in 0.01 seconds
+1208.724 (3) Table wppv_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+1208.756 (3) Table wppv_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+1208.764 (3) Table wppv_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=848) in 0.01 seconds
+1208.791 (3) Table wppv_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+1208.811 (3) Table wppv_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+1208.818 (3) Table wppv_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1289) in 0.01 seconds
+1208.837 (3) Table wppv_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+1208.858 (3) Table wppv_wpfront_ure_login_redirect: Total expected rows (via COUNT): 0
+1208.871 (3) Table wppv_wpfront_ure_login_redirect: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=885) in 0.02 seconds
+1208.904 (3) Table wppv_wpfront_ure_login_redirect: finishing file(s) (2, 0.4 KB)
+1208.935 (3) Table wppv_wpfront_ure_options: Total expected rows (via COUNT): 7
+1208.941 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1208.952 (3) Table wppv_wpfront_ure_options: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1756) in 0.03 seconds
+1208.991 (3) Table wppv_wpfront_ure_options: finishing file(s) (2, 0.7 KB)
+1209.012 (3) Table wppv_wpfront_ure_post_type: Total expected rows (via COUNT): 0
+1209.025 (3) Table wppv_wpfront_ure_post_type: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=889) in 0.02 seconds
+1209.043 (3) Table wppv_wpfront_ure_post_type: finishing file(s) (2, 0.4 KB)
+1209.062 (3) Table wppv_wpfront_ure_taxonomy: Total expected rows (via COUNT): 0
+1209.070 (3) Table wppv_wpfront_ure_taxonomy: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=881) in 0.01 seconds
+1209.094 (3) Table wppv_wpfront_ure_taxonomy: finishing file(s) (2, 0.4 KB)
+1209.121 (3) Table wppv_wt_iew_action_history: Total expected rows (via COUNT): 1
+1209.133 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1209.153 (3) Table wppv_wt_iew_action_history: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=4140) in 0.04 seconds
+1209.192 (3) Table wppv_wt_iew_action_history: finishing file(s) (2, 1.2 KB)
+1209.226 (3) Table wppv_wt_iew_cron: Total expected rows (via COUNT): 0
+1209.239 (3) Table wppv_wt_iew_cron: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=823) in 0.02 seconds
+1209.272 (3) Table wppv_wt_iew_cron: finishing file(s) (2, 0.4 KB)
+1209.298 (3) Table wppv_wt_iew_ftp: Total expected rows (via COUNT): 0
+1209.309 (3) Table wppv_wt_iew_ftp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=765) in 0.01 seconds
+1209.345 (3) Table wppv_wt_iew_ftp: finishing file(s) (2, 0.4 KB)
+1209.382 (3) Table wppv_wt_iew_mapping_template: Total expected rows (via COUNT): 0
+1209.389 (3) Table wppv_wt_iew_mapping_template: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=596) in 0.02 seconds
+1209.431 (3) Table wppv_wt_iew_mapping_template: finishing file(s) (2, 0.3 KB)
+1209.454 (3) Table wppv_wt_mgdp_action_history: Total expected rows (via COUNT): 1
+1209.461 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1209.482 (3) Table wppv_wt_mgdp_action_history: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=776) in 0.03 seconds
+1209.510 (3) Table wppv_wt_mgdp_action_history: finishing file(s) (2, 0.4 KB)
+1209.538 (3) Table wppv_wt_mgdp_ftp: Total expected rows (via COUNT): 0
+1209.579 (3) Table wppv_wt_mgdp_ftp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=771) in 0.05 seconds
+1209.618 (3) Table wppv_wt_mgdp_ftp: finishing file(s) (2, 0.4 KB)
+1209.643 (3) Table wppv_wtmgdp_log: Total expected rows (via COUNT): 0
+1209.654 (3) Table wppv_wtmgdp_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=633) in 0.01 seconds
+1209.685 (3) Table wppv_wtmgdp_log: finishing file(s) (2, 0.3 KB)
+1209.724 (3) Table wppv_yoast_indexable: Total expected rows (approximate): 1810
+1209.869 (3) Table wppv_yoast_indexable: Rows added in this batch (next record: 2545): 2162 (uncompressed bytes in this segment=1340999) in 0.16 seconds
+1209.901 (3) Table wppv_yoast_indexable: finishing file(s) (2, 163.2 KB)
+1209.914 (3) Table wppv_yoast_indexable_hierarchy: Total expected rows (approximate): 451
+1209.921 (3) Table wppv_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 495 (uncompressed bytes in this segment=9502) in 0.01 seconds
+1209.938 (3) Table wppv_yoast_indexable_hierarchy: finishing file(s) (2, 1.7 KB)
+1209.956 (3) Table wppv_yoast_migrations: Total expected rows (via COUNT): 23
+1209.962 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 5 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1209.979 (3) Table wppv_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1379) in 0.02 seconds
+1210.005 (3) Table wppv_yoast_migrations: finishing file(s) (2, 0.6 KB)
+1210.025 (3) Table wppv_yoast_primary_term: Total expected rows (via COUNT): 0
+1210.043 (3) Table wppv_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=862) in 0.02 seconds
+1210.072 (3) Table wppv_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+1210.094 (3) Table wppv_yoast_seo_links: Total expected rows (via COUNT): 241
+1210.100 (3) Last successful resumption was 4 runs ago; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+1210.124 (3) Table wppv_yoast_seo_links: Rows added in this batch (next record: 715): 241 (uncompressed bytes in this segment=36513) in 0.03 seconds
+1210.165 (3) Table wppv_yoast_seo_links: finishing file(s) (2, 5 KB)
+1210.173 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_options.table.tmpr43521.gz (1/85/fopen): adding to final database dump
+1210.284 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_options.table.gz (2/85/fopen): adding to final database dump
+1210.295 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_users.table.tmpr1288.gz (3/85/fopen): adding to final database dump
+1210.313 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_users.table.gz (4/85/fopen): adding to final database dump
+1210.321 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_usermeta.table.gz (5/85/fopen): adding to final database dump
+1210.448 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_commentmeta.table.tmpr0.gz (6/85/fopen): adding to final database dump
+1210.458 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_commentmeta.table.gz (7/85/fopen): adding to final database dump
+1210.464 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_comments.table.tmpr0.gz (8/85/fopen): adding to final database dump
+1210.471 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_comments.table.gz (9/85/fopen): adding to final database dump
+1210.477 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_links.table.tmpr0.gz (10/85/fopen): adding to final database dump
+1210.488 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_links.table.gz (11/85/fopen): adding to final database dump
+1210.495 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_postmeta.table.tmpr26496.gz (12/85/fopen): adding to final database dump
+1210.786 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_postmeta.table.gz (13/85/fopen): adding to final database dump
+1210.795 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_posts.table.tmpr7983.gz (14/85/fopen): adding to final database dump
+1210.852 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_posts.table.gz (15/85/fopen): adding to final database dump
+1210.863 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_term_relationships.table.tmpr100001.gz (16/85/fopen): adding to final database dump
+1210.869 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_term_relationships.table.gz (17/85/fopen): adding to final database dump
+1210.874 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_term_taxonomy.table.tmpr157.gz (18/85/fopen): adding to final database dump
+1210.886 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_term_taxonomy.table.gz (19/85/fopen): adding to final database dump
+1210.899 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_termmeta.table.tmpr0.gz (20/85/fopen): adding to final database dump
+1210.905 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_termmeta.table.gz (21/85/fopen): adding to final database dump
+1210.911 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_terms.table.tmpr157.gz (22/85/fopen): adding to final database dump
+1210.920 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_terms.table.gz (23/85/fopen): adding to final database dump
+1210.934 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_actionscheduler_actions.table.tmpr6810.gz (24/85/fopen): adding to final database dump
+1210.941 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_actionscheduler_actions.table.gz (25/85/fopen): adding to final database dump
+1210.947 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_actionscheduler_claims.table.tmpr0.gz (26/85/fopen): adding to final database dump
+1210.955 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_actionscheduler_claims.table.gz (27/85/fopen): adding to final database dump
+1210.963 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_actionscheduler_groups.table.tmpr2.gz (28/85/fopen): adding to final database dump
+1210.971 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_actionscheduler_groups.table.gz (29/85/fopen): adding to final database dump
+1210.983 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_actionscheduler_logs.table.tmpr8.gz (30/85/fopen): adding to final database dump
+1210.994 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_actionscheduler_logs.table.gz (31/85/fopen): adding to final database dump
+1210.999 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_e_events.table.tmpr0.gz (32/85/fopen): adding to final database dump
+1211.014 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_e_events.table.gz (33/85/fopen): adding to final database dump
+1211.023 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_e_submissions.table.tmpr0.gz (34/85/fopen): adding to final database dump
+1211.034 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_e_submissions.table.gz (35/85/fopen): adding to final database dump
+1211.042 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_e_submissions_actions_log.table.tmpr0.gz (36/85/fopen): adding to final database dump
+1211.069 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_e_submissions_actions_log.table.gz (37/85/fopen): adding to final database dump
+1211.086 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_e_submissions_values.table.tmpr0.gz (38/85/fopen): adding to final database dump
+1211.099 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_e_submissions_values.table.gz (39/85/fopen): adding to final database dump
+1211.108 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_login_redirects.table.tmpr3.gz (40/85/fopen): adding to final database dump
+1211.120 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_login_redirects.table.gz (41/85/fopen): adding to final database dump
+1211.126 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_css.table.tmpr110.gz (42/85/fopen): adding to final database dump
+1211.139 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_css.table.gz (43/85/fopen): adding to final database dump
+1211.146 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_css_bkp.table.tmpr48.gz (44/85/fopen): adding to final database dump
+1211.154 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_css_bkp.table.gz (45/85/fopen): adding to final database dump
+1211.162 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_layer_animations.table.tmpr0.gz (46/85/fopen): adding to final database dump
+1211.170 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_layer_animations.table.gz (47/85/fopen): adding to final database dump
+1211.189 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_layer_animations_bkp.table.tmpr0.gz (48/85/fopen): adding to final database dump
+1211.201 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_layer_animations_bkp.table.gz (49/85/fopen): adding to final database dump
+1211.214 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_navigations.table.tmpr5.gz (50/85/fopen): adding to final database dump
+1211.224 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_navigations.table.gz (51/85/fopen): adding to final database dump
+1211.231 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_navigations_bkp.table.tmpr0.gz (52/85/fopen): adding to final database dump
+1211.249 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_navigations_bkp.table.gz (53/85/fopen): adding to final database dump
+1211.259 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_sliders.table.tmpr16.gz (54/85/fopen): adding to final database dump
+1211.270 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_sliders.table.gz (55/85/fopen): adding to final database dump
+1211.278 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_sliders_bkp.table.tmpr0.gz (56/85/fopen): adding to final database dump
+1211.286 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_sliders_bkp.table.gz (57/85/fopen): adding to final database dump
+1211.294 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_slides.table.tmpr35.gz (58/85/fopen): adding to final database dump
+1211.319 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_slides.table.gz (59/85/fopen): adding to final database dump
+1211.338 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_slides_bkp.table.tmpr0.gz (60/85/fopen): adding to final database dump
+1211.350 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_slides_bkp.table.gz (61/85/fopen): adding to final database dump
+1211.371 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_static_slides.table.tmpr12.gz (62/85/fopen): adding to final database dump
+1211.385 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_static_slides.table.gz (63/85/fopen): adding to final database dump
+1211.401 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_static_slides_bkp.table.tmpr0.gz (64/85/fopen): adding to final database dump
+1211.415 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_revslider_static_slides_bkp.table.gz (65/85/fopen): adding to final database dump
+1211.421 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_sbi_instagram_feed_locator.table.tmpr5.gz (66/85/fopen): adding to final database dump
+1211.429 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_sbi_instagram_feed_locator.table.gz (67/85/fopen): adding to final database dump
+1211.457 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_sbi_instagram_feeds_posts.table.tmpr9.gz (68/85/fopen): adding to final database dump
+1211.467 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_sbi_instagram_feeds_posts.table.gz (69/85/fopen): adding to final database dump
+1211.474 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_sbi_instagram_posts.table.tmpr9.gz (70/85/fopen): adding to final database dump
+1211.485 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_sbi_instagram_posts.table.gz (71/85/fopen): adding to final database dump
+1211.491 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_sm_sessions.table.tmpr1.gz (72/85/fopen): adding to final database dump
+1211.500 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_sm_sessions.table.gz (73/85/fopen): adding to final database dump
+1211.508 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_smush_dir_images.table.tmpr0.gz (74/85/fopen): adding to final database dump
+1211.516 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_smush_dir_images.table.gz (75/85/fopen): adding to final database dump
+1211.525 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_social_users.table.tmpr32.gz (76/85/fopen): adding to final database dump
+1211.532 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_social_users.table.gz (77/85/fopen): adding to final database dump
+1211.542 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_tm_taskmeta.table.tmpr0.gz (78/85/fopen): adding to final database dump
+1211.548 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_tm_taskmeta.table.gz (79/85/fopen): adding to final database dump
+1211.553 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_tm_tasks.table.tmpr0.gz (80/85/fopen): adding to final database dump
+1211.559 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_tm_tasks.table.gz (81/85/fopen): adding to final database dump
+1211.568 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_admin_note_actions.table.tmpr367.gz (82/85/fopen): adding to final database dump
+1211.579 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_admin_note_actions.table.gz (83/85/fopen): adding to final database dump
+1211.589 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_admin_notes.table.tmpr35.gz (84/85/fopen): adding to final database dump
+1211.598 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_admin_notes.table.gz (85/85/fopen): adding to final database dump
+1211.605 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_category_lookup.table.tmpr1001.gz (86/85/fopen): adding to final database dump
+1211.619 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_category_lookup.table.gz (87/85/fopen): adding to final database dump
+1211.629 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_customer_lookup.table.tmpr0.gz (88/85/fopen): adding to final database dump
+1211.636 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_customer_lookup.table.gz (89/85/fopen): adding to final database dump
+1211.641 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_download_log.table.tmpr0.gz (90/85/fopen): adding to final database dump
+1211.647 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_download_log.table.gz (91/85/fopen): adding to final database dump
+1211.653 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_order_coupon_lookup.table.tmpr1.gz (92/85/fopen): adding to final database dump
+1211.658 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_order_coupon_lookup.table.gz (93/85/fopen): adding to final database dump
+1211.664 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_order_product_lookup.table.tmpr0.gz (94/85/fopen): adding to final database dump
+1211.671 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_order_product_lookup.table.gz (95/85/fopen): adding to final database dump
+1211.678 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_order_stats.table.tmpr0.gz (96/85/fopen): adding to final database dump
+1211.684 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_order_stats.table.gz (97/85/fopen): adding to final database dump
+1211.689 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_order_tax_lookup.table.tmpr1.gz (98/85/fopen): adding to final database dump
+1211.696 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_order_tax_lookup.table.gz (99/85/fopen): adding to final database dump
+1211.708 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_product_meta_lookup.table.tmpr0.gz (100/85/fopen): adding to final database dump
+1211.712 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_product_meta_lookup.table.gz (101/85/fopen): adding to final database dump
+1211.716 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_rate_limits.table.tmpr0.gz (102/85/fopen): adding to final database dump
+1211.721 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_rate_limits.table.gz (103/85/fopen): adding to final database dump
+1211.725 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_reserved_stock.table.tmpr1.gz (104/85/fopen): adding to final database dump
+1211.731 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_reserved_stock.table.gz (105/85/fopen): adding to final database dump
+1211.736 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_tax_rate_classes.table.tmpr3.gz (106/85/fopen): adding to final database dump
+1211.741 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_tax_rate_classes.table.gz (107/85/fopen): adding to final database dump
+1211.745 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_webhooks.table.tmpr0.gz (108/85/fopen): adding to final database dump
+1211.749 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wc_webhooks.table.gz (109/85/fopen): adding to final database dump
+1211.754 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_api_keys.table.tmpr0.gz (110/85/fopen): adding to final database dump
+1211.758 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_api_keys.table.gz (111/85/fopen): adding to final database dump
+1211.762 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_attribute_taxonomies.table.tmpr0.gz (112/85/fopen): adding to final database dump
+1211.767 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_attribute_taxonomies.table.gz (113/85/fopen): adding to final database dump
+1211.772 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_downloadable_product_permissions.table.tmpr0.gz (114/85/fopen): adding to final database dump
+1211.777 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_downloadable_product_permissions.table.gz (115/85/fopen): adding to final database dump
+1211.781 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_log.table.tmpr0.gz (116/85/fopen): adding to final database dump
+1211.786 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_log.table.gz (117/85/fopen): adding to final database dump
+1211.791 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_order_itemmeta.table.tmpr0.gz (118/85/fopen): adding to final database dump
+1211.795 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_order_itemmeta.table.gz (119/85/fopen): adding to final database dump
+1211.799 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_order_items.table.tmpr0.gz (120/85/fopen): adding to final database dump
+1211.804 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_order_items.table.gz (121/85/fopen): adding to final database dump
+1211.809 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_payment_tokenmeta.table.tmpr0.gz (122/85/fopen): adding to final database dump
+1211.813 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_payment_tokenmeta.table.gz (123/85/fopen): adding to final database dump
+1211.819 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_payment_tokens.table.tmpr0.gz (124/85/fopen): adding to final database dump
+1211.826 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_payment_tokens.table.gz (125/85/fopen): adding to final database dump
+1211.832 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_sessions.table.tmpr3.gz (126/85/fopen): adding to final database dump
+1211.837 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_sessions.table.gz (127/85/fopen): adding to final database dump
+1211.843 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_shipping_zone_locations.table.tmpr0.gz (128/85/fopen): adding to final database dump
+1211.853 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_shipping_zone_locations.table.gz (129/85/fopen): adding to final database dump
+1211.860 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_shipping_zone_methods.table.tmpr0.gz (130/85/fopen): adding to final database dump
+1211.868 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_shipping_zone_methods.table.gz (131/85/fopen): adding to final database dump
+1211.873 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_shipping_zones.table.tmpr0.gz (132/85/fopen): adding to final database dump
+1211.879 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_shipping_zones.table.gz (133/85/fopen): adding to final database dump
+1211.885 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_tax_rate_locations.table.tmpr0.gz (134/85/fopen): adding to final database dump
+1211.893 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_tax_rate_locations.table.gz (135/85/fopen): adding to final database dump
+1211.905 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_tax_rates.table.tmpr0.gz (136/85/fopen): adding to final database dump
+1211.918 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_woocommerce_tax_rates.table.gz (137/85/fopen): adding to final database dump
+1211.926 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wpfront_ure_login_redirect.table.tmpr0.gz (138/85/fopen): adding to final database dump
+1211.932 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wpfront_ure_login_redirect.table.gz (139/85/fopen): adding to final database dump
+1211.942 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wpfront_ure_options.table.tmpr8.gz (140/85/fopen): adding to final database dump
+1211.954 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wpfront_ure_options.table.gz (141/85/fopen): adding to final database dump
+1211.961 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wpfront_ure_post_type.table.tmpr0.gz (142/85/fopen): adding to final database dump
+1211.967 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wpfront_ure_post_type.table.gz (143/85/fopen): adding to final database dump
+1211.975 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wpfront_ure_taxonomy.table.tmpr0.gz (144/85/fopen): adding to final database dump
+1211.983 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wpfront_ure_taxonomy.table.gz (145/85/fopen): adding to final database dump
+1211.992 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wt_iew_action_history.table.tmpr2.gz (146/85/fopen): adding to final database dump
+1212.001 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wt_iew_action_history.table.gz (147/85/fopen): adding to final database dump
+1212.011 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wt_iew_cron.table.tmpr0.gz (148/85/fopen): adding to final database dump
+1212.020 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wt_iew_cron.table.gz (149/85/fopen): adding to final database dump
+1212.029 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wt_iew_ftp.table.tmpr0.gz (150/85/fopen): adding to final database dump
+1212.037 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wt_iew_ftp.table.gz (151/85/fopen): adding to final database dump
+1212.043 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wt_iew_mapping_template.table.tmpr0.gz (152/85/fopen): adding to final database dump
+1212.052 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wt_iew_mapping_template.table.gz (153/85/fopen): adding to final database dump
+1212.062 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wt_mgdp_action_history.table.tmpr2.gz (154/85/fopen): adding to final database dump
+1212.071 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wt_mgdp_action_history.table.gz (155/85/fopen): adding to final database dump
+1212.081 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wt_mgdp_ftp.table.tmpr0.gz (156/85/fopen): adding to final database dump
+1212.096 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wt_mgdp_ftp.table.gz (157/85/fopen): adding to final database dump
+1212.109 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wtmgdp_log.table.tmpr0.gz (158/85/fopen): adding to final database dump
+1212.117 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_wtmgdp_log.table.gz (159/85/fopen): adding to final database dump
+1212.121 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_yoast_indexable.table.tmpr2546.gz (160/85/fopen): adding to final database dump
+1212.214 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_yoast_indexable.table.gz (161/85/fopen): adding to final database dump
+1212.225 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_yoast_indexable_hierarchy.table.tmpr1001.gz (162/85/fopen): adding to final database dump
+1212.235 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_yoast_indexable_hierarchy.table.gz (163/85/fopen): adding to final database dump
+1212.244 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_yoast_migrations.table.tmpr24.gz (164/85/fopen): adding to final database dump
+1212.252 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_yoast_migrations.table.gz (165/85/fopen): adding to final database dump
+1212.258 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_yoast_primary_term.table.tmpr0.gz (166/85/fopen): adding to final database dump
+1212.268 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_yoast_primary_term.table.gz (167/85/fopen): adding to final database dump
+1212.283 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_yoast_seo_links.table.tmpr716.gz (168/85/fopen): adding to final database dump
+1212.303 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db-table-wppv_yoast_seo_links.table.gz (169/85/fopen): adding to final database dump
+1212.369 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db.gz: finished writing out complete database file (1987.1 KB)
+1212.561 (3) Total database tables backed up: 85 (backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db.gz, size: 2034888, sha1: 89a5ab162118a1bc098cc9a0cc638ff3ae17c10b, sha256: 5c5d3dd528d1e8cd2924df62b900e4fe400aadd0d546ac19b09a644bfad001d2)
+1212.609 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1212.616 (3) backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db.gz: db: This file has not yet been successfully uploaded: will queue
+1212.622 (3) Saving backup history. Total backup size: 48.4 MB
+1212.637 (3) Requesting upload of the files that have not yet been successfully uploaded (2)
+1212.661 (3) Cloud backup selection (1/1): remotesend with instance (1/1) (last)
+1212.665 (3) Beginning dispatch of backup to remote (remotesend)
+1212.674 (3) remotesend: upload : attempt: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip
+1213.534 (3) remotesend: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip: existing size: 0
+1213.547 (3) Remote send upload: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip (chunks: 24, of size: 2097152) -> remotesend://https://dimitri.salonbooking.it/backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip (0)
+1214.804 (3) Remotesend chunked upload: 4.3 % uploaded (1)
+1216.117 (3) Remotesend chunked upload: 8.6 % uploaded (2)
+1217.227 (3) Remotesend chunked upload: 12.9 % uploaded (3)
+1218.377 (3) Remotesend chunked upload: 17.2 % uploaded (4)
+1219.534 (3) Remotesend chunked upload: 21.5 % uploaded (5)
+1220.679 (3) Remotesend chunked upload: 25.8 % uploaded (6)
+1221.840 (3) Remotesend chunked upload: 30.1 % uploaded (7)
+1223.017 (3) Remotesend chunked upload: 34.4 % uploaded (8)
+1224.202 (3) Remotesend chunked upload: 38.7 % uploaded (9)
+1225.381 (3) Remotesend chunked upload: 43 % uploaded (10)
+1226.597 (3) Remotesend chunked upload: 47.3 % uploaded (11)
+1227.760 (3) Remotesend chunked upload: 51.6 % uploaded (12)
+1229.029 (3) Remotesend chunked upload: 55.9 % uploaded (13)
+1230.171 (3) Remotesend chunked upload: 60.2 % uploaded (14)
+1231.409 (3) Remotesend chunked upload: 64.5 % uploaded (15)
+1232.638 (3) Remotesend chunked upload: 68.8 % uploaded (16)
+1233.816 (3) Remotesend chunked upload: 73.1 % uploaded (17)
+1235.125 (3) The scheduled resumption is within 45 seconds - will reschedule
+1235.154 (3) Rescheduling resumption 4: moving to 345 seconds from now (1649404428)
+1235.183 (3) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+1235.197 (3) Remotesend chunked upload: 77.5 % uploaded (18)
+1236.469 (3) Remotesend chunked upload: 81.8 % uploaded (19)
+1237.687 (3) Remotesend chunked upload: 86.1 % uploaded (20)
+1238.896 (3) Remotesend chunked upload: 90.4 % uploaded (21)
+1240.105 (3) Remotesend chunked upload: 94.7 % uploaded (22)
+1241.340 (3) Remotesend chunked upload: 99 % uploaded (23)
+1242.268 (3) Remotesend chunked upload: 100 % uploaded (24)
+1242.312 (3) Remote send upload: success
+1242.321 (3) Recording as successfully uploaded: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip
+1242.361 (3) Deleting local file: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip: OK
+1242.366 (3) Deleting zip manifest (backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-plugins.zip.list.tmp)
+1242.382 (3) remotesend: upload : attempt: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db.gz
+1243.147 (3) remotesend: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db.gz: existing size: 0
+1243.153 (3) Remote send upload: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db.gz (chunks: 1, of size: 2097152) -> remotesend://https://dimitri.salonbooking.it/backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db.gz (0)
+1244.274 (3) Remotesend chunked upload: 100 % uploaded (1)
+1244.286 (3) Remote send upload: success
+1244.291 (3) Recording as successfully uploaded: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db.gz
+1244.303 (3) Deleting local file: backup_2022-04-08-0827_Mondo_di_Riflessi_622c090673e9-db.gz: OK
+1245.096 (3) Prune old backups from local store: skipping, as this was a remote send operation
+1245.114 (3) Resume backup (622c090673e9, 3): finish run
+1245.125 (3) [Info] Lock option (updraft_lock_622c090673e9, wppv_options) released
+1245.141 (3) There were no errors in the uploads, so the 'resume' event (4) is being unscheduled
+1245.157 (3) The backup apparently succeeded and is now complete
+1245.161 (3) No email will/can be sent - the user has not configured an email address.
+1245.167 (3) Il backup apparentemente è riuscito ed ora è completo. Per completare la migrazione/clonazione, ora dovresti accedere al sito remoto e ripristinare il set di backup.

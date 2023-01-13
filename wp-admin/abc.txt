@@ -1,0 +1,99 @@
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaArray
+(
+    [_wpnonce] => 38687e48f7
+    [_wp_http_referer] => /wp-admin/post.php?post=15407&action=edit&message=1
+    [user_ID] => 1324
+    [action] => editpost
+    [originalaction] => editpost
+    [post_author] => 802
+    [post_type] => sln_booking
+    [original_post_status] => sln-b-confirmed
+    [referredby] => https://mondodiriflessi.com/wp-admin/post.php?post=15407&action=edit
+    [_wp_original_http_referer] => https://mondodiriflessi.com/wp-admin/post.php?post=15407&action=edit
+    [post_ID] => 15407
+    [meta-box-order-nonce] => e8d8dbb84a
+    [closedpostboxesnonce] => 9423f5392a
+    [save] => Salva bozza
+    [hidden_post_status] => sln-b-confirmed
+    [post_status] => sln-b-confirmed
+    [hidden_post_password] => 
+    [hidden_post_visibility] => public
+    [visibility] => public
+    [post_password] => 
+    [jj] => 30
+    [mm] => 12
+    [aa] => 2022
+    [hh] => 19
+    [mn] => 24
+    [ss] => 20
+    [hidden_mm] => 12
+    [cur_mm] => 12
+    [hidden_jj] => 30
+    [cur_jj] => 30
+    [hidden_aa] => 2022
+    [cur_aa] => 2022
+    [hidden_hh] => 19
+    [cur_hh] => 19
+    [hidden_mn] => 24
+    [cur_mn] => 45
+    [original_publish] => Pubblica
+    [sln_booking_details_meta_nonce] => 1cb749a5c7
+    [_sln_booking_firstname] => Angelo test
+    [_sln_booking_lastname] => qeqweqw
+    [_sln_booking_email] => 
+    [_sln_booking_phone] => 453453534
+    [_sln_booking_address] => fsdfsdf
+    [_sln_cap] => test
+    [_sln_citta] => test 2
+    [_sln_data_di_nascita] => test
+    [_sln_genere] => Uomo
+    [_sln_booking_sms_prefix] => +39
+    [_sln_booking_default_sms_prefix] => +39
+    [_sln_booking_date] => 30 Dic 2022
+    [_sln_booking_time] => 19:21
+    [_sln_booking_status] => sln-b-confirmed
+    [_sln_booking] => Array
+        (
+            [services] => Array
+                (
+                    [0] => 6588
+                )
+
+            [service] => Array
+                (
+                    [6588] => 6588
+                )
+
+            [price] => Array
+                (
+                    [6588] => 0
+                )
+
+            [duration] => Array
+                (
+                    [6588] => 5
+                )
+
+            [break_duration] => Array
+                (
+                    [6588] => 30
+                )
+
+            [attendants] => Array
+                (
+                    [6588] => 6568
+                )
+
+        )
+
+    [_sln_booking_amount] => 0
+    [_sln_booking_remainedAmount] => 0.00
+    [_sln_booking_note] => 
+    [_sln_booking_admin_note] => 
+    [post_name] => bozza-automatica-2960
+    [post_mime_type] => 
+    [ID] => 15407
+    [comment_status] => closed
+    [ping_status] => closed
+)
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
