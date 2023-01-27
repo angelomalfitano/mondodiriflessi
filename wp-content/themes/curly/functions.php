@@ -847,3 +847,31 @@ add_action('admin_head', 'custom_css_hide_notice');
 function custom_css_hide_notice() {
   echo '<style>.sln-notice.sln-notice--bold.sln-notice--subscription-cancelled {display: none;}</style>';
 }
+
+add_action( 'admin_menu', 'add_custom_status_count');
+
+function add_custom_status_count(){
+    global $submenu;
+    global $wpdb;
+
+    $query = "SELECT COUNT(tbl_order.post_status) AS count FROM {$wpdb->posts} AS tbl_order WHERE tbl_order.post_status IN ('sln-b-pending')";
+    $query .= " GROUP BY tbl_order.post_status";
+
+    $results = $wpdb->get_results($query, ARRAY_A);
+
+    $order_count = 0;
+
+    if(!empty($results)){
+        foreach($results as $result){
+            $order_count = $result['count'];
+        }
+    }
+    if ( $order_count > 0 ) {
+        foreach ( $submenu['salon'] as $key => $menu_item ) {
+            if ( 0 === strpos( $menu_item[0], 'Prenotazioni' ) ) {
+                $submenu['salon'][ $key ][0] .= ' <span class="update-plugins count-' . esc_attr( $order_count ) . '"><span class="booking-count">' . number_format_i18n( $order_count ) . '</span></span>'; // WPCS: override ok.
+                break;
+            }
+        }
+    }
+}
