@@ -875,3 +875,145 @@ function add_custom_status_count(){
         }
     }
 }
+
+function order_report_submenu_page() {
+    add_submenu_page( 'salon', 'Statistiche', 'Statistiche', 'manage_options', 'reservation-report-page', 'order_report_page_callback' ); 
+}
+
+
+require 'vendor/autoload.php';
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+
+function order_report_page_callback() {
+	global $wpdb;
+	$start_date = date('Y-m-d 00:00:00');
+	$end_date = date('Y-m-d 23:00:00');
+	if(isset($_GET['start_date'])){
+		$start_date = $_GET['start_date'].'  00:00:00';
+	}	
+	if(isset($_GET['end_date'])){
+		$end_date = $_GET['end_date'].'  00:00:00';
+	}
+		$export_excel_link = home_url($_SERVER['REQUEST_URI']);
+
+    echo '<h3>Statistiche</h3>';
+	echo '<form name="" style="margin-bottom: 15px;"><div class="tablenav top">
+            <input type="hidden" value="reservation-report-page" name="page" />
+            <div class="alignleft actions">
+                  <label class="screen-reader-text" for="wpseo-filter">Filtrovať podľa skóre SEO</label>
+                  <input type="date" name="start_date" id="start_date"  value="'.$_GET['start_date'].'" />
+            	  <input type="date" name="end_date" id="end_date" value="'.$_GET['end_date'].'" />
+                  <input type="submit" name="filter_exp_excel" id="filter_exp_excel" class="button" value="Cerca">';
+			if(isset($_GET['start_date'])){ ?>		<a href="<?php echo $export_excel_link; ?>&exceldw=yes" class="button">Excel Download</a> <?php } 
+
+	echo '</div>
+               <br class="clear"><br class="clear">
+            </div></form>';
+
+	if(isset($_GET['start_date'])){ ?>
+		<?php $myrows = $wpdb->get_results( "SELECT * FROM {$wpdb->prefix}posts WHERE post_type = 'sln_booking' AND post_status = 'sln-b-confirmed' AND post_date >= '$start_date' AND post_date <= '$end_date' and post_title !='Automatic draft' and post_title !='Bozza automatica'" );
+         $all_booking_id = array();
+          foreach($myrows as $booking_id){
+        	 $all_booking_id[] = $booking_id->ID;
+         }
+        $all_service_id = array();
+		$all_attendant_id = array();
+		$all_cust_id = array();
+		$all_cust_name = array();
+        foreach($all_booking_id as $booking_id){
+        	$myrows2 = get_post_meta($booking_id, "_sln_booking_services", true);
+			$cust_id_data = get_post_meta($booking_id, "_sln_booking_email", true);
+			$all_cust_id[] = $cust_id_data;
+			$booking_firstname = get_post_meta($booking_id, "_sln_booking_firstname", true);
+			$booking_lastname = get_post_meta($booking_id, "_sln_booking_lastname", true);
+			$all_cust_name[$cust_id_data] = $booking_firstname.'  '.$booking_lastname;
+        	foreach($myrows2 as $service_id){
+        	$all_service_id[] = $service_id['service'];	
+			$all_attendant_id[] = $service_id['attendant'];	
+        	}
+        }
+		$best_service_id = 0;
+		$best_service_name = '';
+        $service_count = array_count_values($all_service_id);
+		$attendant_count = array_count_values($all_attendant_id);
+		$cust_count = array_count_values($all_cust_id);
+	
+
+        /*$xp = array();
+
+        $header_args = array( 'Categories', 'Service Name', 'Total' );
+        header('Content-Type: text/csv; charset=utf-8');
+        header('Content-Disposition: attachment; filename=csv_export.csv');
+        $output = fopen( 'php://output', 'w' );
+        ob_end_clean();  
+        fputcsv($output, $header_args);
+        //echo implode("\t", array_values($header_args)) . "\n";
+        foreach($service_count as $service_key => $service_val){
+        	$term_lst = get_the_term_list( $service_key, 'sln_service_category', '', ', ' );
+        	$xp['Category'] =strip_tags($term_lst); 
+        	$xp['tit'] = get_the_title($service_key);  
+        	$xp['seervc'] = $service_val;  
+            fputcsv($output, $xp);
+        	//echo implode("\t", array_values($xp)) . "\n";
+
+        }*/ 
+
+        // Creates New Spreadsheet
+        $spreadsheet = new Spreadsheet();
+         
+        // Retrieve the current active worksheet
+        $activeSheet = $spreadsheet->getActiveSheet();
+         
+        $activeSheet->setCellValue('A1', 'Categories');
+        $activeSheet->setCellValue('B1', 'Service Name');
+        $activeSheet->setCellValue('C1', 'Total');
+
+        $i = 2;  
+		$best_service_array[] = array('Services name', 'Services');;
+        foreach($service_count as $service_key => $service_val){
+            $term_lst = get_the_term_list( $service_key, 'sln_service_category', '', ', ' );
+            $activeSheet->setCellValue('A'.$i , strip_tags($term_lst));
+            $activeSheet->setCellValue('B'.$i , get_the_title($service_key));
+            $activeSheet->setCellValue('C'.$i , $service_val);
+			 $best_service_name =  get_the_title($service_key);
+			$best_service_array[] = array($best_service_name,$service_val);
+			if($service_val > $best_service_id){
+				$best_service_id = $service_val;
+				 $best_service_name =  get_the_title($service_key);
+			}
+            $i++;
+        }
+        //echo "</br><b>Best Service :</b> ".$best_service_name.'</br></br>';
+		
+		//echo "<pre><b>Services for employee :</b></br>";
+		$attandant_array[] = array('Attendant', 'Services');
+		 foreach($attendant_count as $service_key => $service_val){
+			// echo  get_the_title($service_key) ,' - '.$service_val.'</br></br>';
+			 $xx = get_the_title($service_key);
+			// $attandant_array[][1] = $service_val;
+			 $attandant_array[] = array($xx,$service_val);
+		 }
+	
+		 $cust_output = array_slice($cust_count, 0, 10);
+		 $cust_output_array[] = array('Customer', 'Services');
+		 foreach($cust_output as $cst_data=>$vals){
+			  $cust_output_array[] = array($all_cust_name[$cst_data],$vals);
+		 }
+
+		 include('graph-chart.php');
+		// print_r($cust_output);
+		if($_GET['exceldw']=='yes'){
+        // Write an .xlsx file
+        $writer = new Xlsx($spreadsheet);
+         
+        // direct dowmload file
+        header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+        header('Content-Disposition: attachment; filename="order_data_report.xlsx"');
+        ob_end_clean();
+        $writer->save('php://output');
+		exit();
+		}
+	}
+}
+add_action('admin_menu', 'order_report_submenu_page',99);
